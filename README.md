@@ -1,0 +1,1 @@
+This repository demonstrates a common error in VHDL code related to the handling of asynchronous reset signals. The provided code shows a counter that is susceptible to metastability issues because of the way the reset signal is handled.  The solution provides a synchronized reset approach, which mitigates metastability and makes the counter more robust.
